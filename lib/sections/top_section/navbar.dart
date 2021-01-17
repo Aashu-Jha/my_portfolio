@@ -21,6 +21,7 @@ class NavBar extends StatelessWidget {
 
 
 class DesktopNavBar extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return Container(
