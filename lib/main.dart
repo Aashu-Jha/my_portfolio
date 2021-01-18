@@ -12,8 +12,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My Portfolio',
-      theme: ThemeData.light().copyWith(
-      ),
       home: HomePage(),
     );
   }
