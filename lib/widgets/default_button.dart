@@ -15,7 +15,7 @@ class DefaultButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Container(
-      padding: MediaQuery.of(context).padding / 2,
+      padding: EdgeInsets.all(kDefaultPadding / 4),
       decoration: BoxDecoration(
         shape: BoxShape.rectangle,
         borderRadius: BorderRadius.circular(50),

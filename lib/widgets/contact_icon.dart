@@ -18,7 +18,7 @@ class ContactIcon extends StatelessWidget {
         Center(
           child: Icon(
               iconData,
-              size: isMobile ? 30.0 : 60.0 ,
+              size: isMobile ? 35.0 : 60.0 ,
               color: Colors.white),
         ),
         onPressed: onPress

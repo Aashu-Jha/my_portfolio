@@ -20,7 +20,7 @@ const kSecondaryTextStyle = TextStyle(
   letterSpacing: 1,
   fontSize: 16.0,
   fontFamily: "Cabin",
-  color: Colors.black87,
+  color: Colors.black,
 );
 
 const kDefaultPadding = 20.0;

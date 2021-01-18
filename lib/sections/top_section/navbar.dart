@@ -38,21 +38,27 @@ class DesktopNavBar extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 TextButton(
-                  onPressed: null,
+                  onPressed: () {
+                    //TODO: navigation not done
+                    },
                   child: Text('About',
                     style: kDesktopNavBarTextStyle,
                   ),
                 ),
                 SizedBox(width: 30.0),
                 TextButton(
-                  onPressed: null,
+                  onPressed: () {
+                    //TODO: navigation not done
+                  },
                   child: Text('Projects',
                     style: kDesktopNavBarTextStyle,
                   ),
                 ),
                 SizedBox(width: 30.0),
                 TextButton(
-                  onPressed: null,
+                  onPressed: () {
+                    //TODO: navigation not done
+                  },
                   child: Text('Resume',
                     style: kDesktopNavBarTextStyle,
                   ),

@@ -14,7 +14,7 @@ class EndSection extends StatelessWidget {
       decoration: BoxDecoration(
         color: Color(0xFFF7E8FF).withOpacity(0.3),
         image: DecorationImage(
-          fit: BoxFit.cover,
+          fit: BoxFit.fill,
           image: AssetImage('assets/images/bgEnd.png'),
         )
       ),

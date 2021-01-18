@@ -6,7 +6,7 @@ class TopSectionBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      constraints: BoxConstraints(maxWidth: double.infinity, maxHeight: 600),
+      constraints: BoxConstraints(maxWidth: double.infinity,),
       decoration: BoxDecoration(
         image: DecorationImage(image: AssetImage('assets/images/coverbackground.png'),
             fit: BoxFit.cover),
