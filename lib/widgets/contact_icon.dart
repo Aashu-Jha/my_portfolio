@@ -12,13 +12,13 @@ class ContactIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      constraints: BoxConstraints.expand(width: 80, height: 80),
+      constraints: isMobile ? BoxConstraints.expand(width: 50, height: 50) : BoxConstraints.expand(width: 80, height: 80),
       hoverColor: Colors.blueAccent,
         icon:
         Center(
           child: Icon(
               iconData,
-              size: isMobile ? 35.0 : 60.0 ,
+              size: isMobile ? 30.0 : 60.0 ,
               color: Colors.white),
         ),
         onPressed: onPress

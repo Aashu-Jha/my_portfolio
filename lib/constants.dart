@@ -23,6 +23,8 @@ const kSecondaryTextStyle = TextStyle(
   color: Colors.black,
 );
 
+void kLaunchResumeUrl() => html.window.open('https://drive.google.com/file/d/164yCxrk0e5Akib4zEx41lyfJsEGyJAU8/view?usp=sharing', 'drive');
+
 const kDefaultPadding = 20.0;
 
 final kDefaultShadow = BoxShadow(

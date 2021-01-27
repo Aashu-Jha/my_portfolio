@@ -30,9 +30,9 @@ class EndSection extends StatelessWidget {
             children: <Widget>[
               Padding(
                 padding: const EdgeInsets.all(5.0),
-                child: ContactCard('My Card', Colors.pinkAccent[100], 'assets/images/hand.png'),
+                child: ContactCard('My Card', Colors.pinkAccent[100], 'assets/images/hand.png', null),
               ),
-              ContactCard('Download CV', Colors.lightBlueAccent[100], 'assets/images/download.png'),
+              ContactCard('Resume', Colors.lightBlueAccent[100], 'assets/images/download.png', kLaunchResumeUrl),
             ],
           ),
           SizedBox(height: 50.0),

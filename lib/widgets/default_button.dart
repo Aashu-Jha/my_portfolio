@@ -15,7 +15,7 @@ class DefaultButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Container(
-      padding: EdgeInsets.all(kDefaultPadding / 4),
+      padding: EdgeInsets.all(kDefaultPadding / 3),
       decoration: BoxDecoration(
         shape: BoxShape.rectangle,
         borderRadius: BorderRadius.circular(50),
@@ -23,8 +23,9 @@ class DefaultButton extends StatelessWidget {
       ),
 
       child: TextButton(
-        onPressed: press,
+        onPressed: kLaunchLinkedInURL,
         child: Row(
+          mainAxisSize: MainAxisSize.min,
           children: [
             Image.asset(imageSrc, height: 30),
             SizedBox(width: kDefaultPadding),

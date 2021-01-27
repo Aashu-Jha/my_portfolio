@@ -6,8 +6,9 @@ class ContactCard extends StatelessWidget {
   final String title;
   final Color bgColor;
   final String imageTitle;
+  final Function onPress;
 
-  ContactCard(this.title, this.bgColor, this.imageTitle);
+  ContactCard(this.title, this.bgColor, this.imageTitle, this.onPress);
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +23,7 @@ class ContactCard extends StatelessWidget {
         boxShadow: [kDefaultShadow],
       ),
       child: TextButton(
-        onPressed: () {},
+        onPressed: onPress,
         child: Column(
           children: <Widget>[
             Container(

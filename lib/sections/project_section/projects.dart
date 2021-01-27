@@ -39,7 +39,7 @@ class Projects extends StatelessWidget {
                   projectImage: AssetImage('assets/images/flashchat.png'),
                   onPress: kLaunchFlashChat,),
                 ProjectCard(
-                  projectTitle: 'CryptoCurrency Converter',
+                  projectTitle: 'Bitcoin',
                   projectDescription: 'This is my first App. In this app, the user can get the current rate of three crypto currencies and convert them into more than 20 physical currencies. The data is fetched through api-calls.',
                   projectImage: AssetImage('assets/images/bitcoin.png',),
                   onPress: kLaunchBitCoin,

@@ -13,7 +13,7 @@ class TopSectionBox extends StatelessWidget {
       ),
       child: Column(
         children: <Widget>[
-          NavBar(),
+          // NavBar(),
           SizedBox(height: 120,),
           Introduction(),
           SizedBox(height: 50,)
